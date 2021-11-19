@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-19T17:54:12 IST" name="Default suite" finished-at="2021-11-19T17:54:12 IST" duration-ms="50">
+    <groups>
+      <group name="regression">
+        <method signature="RegistrationPageTests.test2()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" name="test2" class="com.guru99.demo.testcases.RegistrationPageTests"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="RegistrationPageTests.test()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" name="test" class="com.guru99.demo.testcases.RegistrationPageTests"/>
+        <method signature="RegistrationPageTests.test1()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" name="test1" class="com.guru99.demo.testcases.RegistrationPageTests"/>
+        <method signature="RegistrationPageTests.test2()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" name="test2" class="com.guru99.demo.testcases.RegistrationPageTests"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2021-11-19T17:54:12 IST" name="Default test" finished-at="2021-11-19T17:54:12 IST" duration-ms="50">
+      <class name="com.guru99.demo.testcases.RegistrationPageTests">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" started-at="2021-11-19T17:54:12 IST" name="beforeTest" finished-at="2021-11-19T17:54:12 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforMethod()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" started-at="2021-11-19T17:54:12 IST" name="beforMethod" finished-at="2021-11-19T17:54:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method signature="test()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" started-at="2021-11-19T17:54:12 IST" name="test" finished-at="2021-11-19T17:54:12 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" started-at="2021-11-19T17:54:12 IST" name="afterMethod" finished-at="2021-11-19T17:54:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforMethod()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" started-at="2021-11-19T17:54:12 IST" name="beforMethod" finished-at="2021-11-19T17:54:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method signature="test1()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" started-at="2021-11-19T17:54:12 IST" name="test1" finished-at="2021-11-19T17:54:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="beforMethod()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" started-at="2021-11-19T17:54:12 IST" name="beforMethod" finished-at="2021-11-19T17:54:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" started-at="2021-11-19T17:54:12 IST" name="afterMethod" finished-at="2021-11-19T17:54:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test2()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" started-at="2021-11-19T17:54:12 IST" name="test2" finished-at="2021-11-19T17:54:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" started-at="2021-11-19T17:54:12 IST" name="afterMethod" finished-at="2021-11-19T17:54:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.guru99.demo.testcases.RegistrationPageTests@593aaf41]" started-at="2021-11-19T17:54:12 IST" name="afterTest" finished-at="2021-11-19T17:54:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.guru99.demo.testcases.RegistrationPageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
