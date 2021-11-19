@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ntt_basic_intro.utility.Types&apos; to &apos;TypesOfWaitsEx&apos;&#x0D;&#x0A;- Original project: &apos;ntt_basic_intro&apos;&#x0D;&#x0A;- Original element: &apos;ntt_basic_intro.utility.Types&apos;&#x0D;&#x0A;- Renamed element: &apos;ntt_basic_intro.utility.TypesOfWaitsEx&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Types&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;ntt_basic_intro.utility{Types.java[Types" matchStrategy="1" name="TypesOfWaitsEx" qualified="false" references="true" similarDeclarations="false" stamp="1637131835408" textual="false" version="1.0"/>
+</session>

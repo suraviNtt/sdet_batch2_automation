@@ -1,0 +1,26 @@
+package ntt_basic_intro.utility;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class AlertsExample {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("http://demo.guru99.com/test/delete_customer.php");
+		WebElement submitbutton = driver.findElement(By.xpath("//input[@name='submit']"));
+		submitbutton.click();
+		driver.switchTo().alert().accept();
+		Thread.sleep(2000);
+		driver.switchTo().alert().accept();
+		Thread.sleep(8000);
+		submitbutton.click();
+		driver.switchTo().alert().dismiss();
+	}
+}
