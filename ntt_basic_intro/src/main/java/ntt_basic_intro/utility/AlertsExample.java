@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.chromium.ChromiumOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -19,8 +22,11 @@ public class AlertsExample {
 	public static void main(String[] args) throws InterruptedException {
 		//set up chrome
 		WebDriverManager.chromedriver().setup();
+		
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--incognito");
 		// settig chrome driver
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver(options);
 		//launching application
 		driver.get("http://demo.guru99.com/test/delete_customer.php");
 		//creating web element of submit button
