@@ -1,0 +1,15 @@
+package ntt_basic_intro.utility;
+
+import org.apache.hc.client5.http.impl.classic.MainClientExec;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class AlertsExample {
+
+	public static void main(String[] args) {
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+	}
+}
