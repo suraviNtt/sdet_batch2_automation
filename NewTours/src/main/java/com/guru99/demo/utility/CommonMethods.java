@@ -1,5 +1,7 @@
 package com.guru99.demo.utility;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +17,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  */
 public class CommonMethods {
 
-	private WebDriver driver;
+	protected static WebDriver driver;
 	
 	/**
 	 * getting chrome driver
@@ -45,6 +47,7 @@ public class CommonMethods {
 	}
 
 	public void getDriver(String browser) {
+		
 		switch (browser) {
 
 		case "chrome":
@@ -64,6 +67,7 @@ public class CommonMethods {
 	
 	public void getApplication(String applicationUrl) {
 		driver.get(applicationUrl);
+		
 	}
 
 	public void closeBrowser() {
@@ -90,5 +94,23 @@ public class CommonMethods {
 			System.out.println("element is not found");
 			e.printStackTrace();
 		}
+	}
+	
+	public boolean scrollToElement(WebElement elem) {
+		try {
+			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", elem);
+			if (elem.isDisplayed())
+				return true;
+			else
+				return false;
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return false;
+		}
+	}
+	
+	public WebElement getWebElement(String xpath) {
+		return driver.findElement(By.xpath(xpath));
 	}
 }
