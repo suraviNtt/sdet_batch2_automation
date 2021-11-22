@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.guru99.demo.testcases.RegistrationPageTests">
+      <class name="com.guru99.demo.testcases.CalanderTest">
         <methods>
-          <include name="beforMethod"/>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-          <include name="test"/>
-          <include name="beforeTest"/>
+          <include name="launchApplication"/>
+          <include name="selectJourneyDateSuccess"/>
         </methods>
-      </class> <!-- com.guru99.demo.testcases.RegistrationPageTests -->
+      </class> <!-- com.guru99.demo.testcases.CalanderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
