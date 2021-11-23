@@ -20,6 +20,30 @@ public class HomePage  extends CommonMethods {
 	@FindBy(xpath = "//input[@name='submit']")
 	WebElement submit;
 	
+	@FindBy(id = "email")
+	WebElement emailInbox1;
+	
+	@FindBy(xpath = "//input[@name='password']")
+	WebElement passwordField1;
+	
+	@FindBy(xpath = "//input[@name='confirmPassword']")
+	WebElement confrmPasswordField1;
+	
+	@FindBy(xpath = "//input[@name='submit']")
+	WebElement submit1;
+	
+	@FindBy(id = "email")
+	WebElement emailInbox2;
+	
+	@FindBy(xpath = "//input[@name='password']")
+	WebElement passwordField2;
+	
+	@FindBy(xpath = "//input[@name='confirmPassword']")
+	WebElement confrmPasswordField2;
+	
+	@FindBy(xpath = "//input[@name='submit']")
+	WebElement submit2;
+	
 	public HomePage() {
 		PageFactory.initElements(driver, this);
 	}
